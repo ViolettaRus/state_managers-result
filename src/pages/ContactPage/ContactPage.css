@@ -1,0 +1,134 @@
+.contact-page {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.back-link:hover {
+  color: #764ba2;
+}
+
+.contact-detail {
+  max-width: 600px;
+}
+
+.contact-detail-header {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  align-items: flex-start;
+}
+
+.contact-detail-avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #667eea;
+}
+
+.contact-detail-info {
+  flex: 1;
+}
+
+.contact-detail-info h2 {
+  margin: 0 0 1rem 0;
+  color: #333;
+}
+
+.favorite-btn-large {
+  padding: 0.75rem 1.5rem;
+  background: #f0f0f0;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: #666;
+}
+
+.favorite-btn-large.active {
+  background: #fff9e6;
+  border-color: #ffd700;
+  color: #ffd700;
+}
+
+.favorite-btn-large:hover {
+  background: #e0e0e0;
+}
+
+.favorite-btn-large.active:hover {
+  background: #ffe6cc;
+}
+
+.contact-detail-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.detail-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.detail-label {
+  font-weight: 600;
+  color: #666;
+  min-width: 100px;
+}
+
+.detail-value {
+  color: #333;
+  text-decoration: none;
+}
+
+.detail-groups {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.detail-groups a.group-badge-large {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  background: #667eea;
+  transition: background 0.2s;
+}
+
+.detail-groups a.group-badge-large:hover {
+  background: #764ba2;
+}
+
+.group-badge-large {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  color: white;
+  font-weight: 500;
+}
+
+.error {
+  text-align: center;
+  padding: 2rem;
+  color: #e74c3c;
+  font-size: 1.2rem;
+}
